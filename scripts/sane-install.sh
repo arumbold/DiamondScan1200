@@ -24,7 +24,7 @@ if [ !  -f /usr/share/sane/gt68xx/PS1Dfw.usb  ]
             cp bin/PS1Dfw.usb /usr/share/sane/gt68xx/;
             echo "Done";
         else
-	    echo "Scanner firmware could not be located";
+            echo "Scanner firmware could not be located";
         fi
     else
         echo "Scanner firmware already installed";
